@@ -1,0 +1,192 @@
+body{
+    background-image: url(https://img1.picmix.com/output/stamp/normal/6/0/1/6/1556106_f227e.gif);
+    background-color: white;
+    text-align: center;
+    margin: 0;   
+}
+
+/* Tag Section */
+
+a{
+    text-decoration: none;
+    color: black;                                                                                                                                                           
+    line-height: 2;
+}
+
+a:hover{
+    color: grey;
+}
+
+.credit::before{
+    content: "© ";
+}
+
+.credit::after{
+    content: ", 2023";
+}
+
+i{
+    padding: 0 10px;
+}
+
+/* Head Section */
+
+.heading{
+    font-family: 'Alkatra', cursive;
+    text-decoration: underline 6px;
+    padding: 50px 30px 0;
+    color: white;
+    font-size: calc(2em + 3vw);
+    text-shadow: 5px 4px grey;
+    margin: 0;
+}
+
+.note{
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: #F5EBEB;
+    width: fit-content;
+    margin: auto;
+}
+
+.noteText{
+    font-weight: bold;
+    letter-spacing: 5px;
+    padding-left: 5px;
+    display: inline-block;
+    font-size: 2.5vh;
+    margin: auto;
+}
+
+
+/* Id Section */
+
+#firstSection{
+    background-image: url("https://media0.giphy.com/media/xT8qBfjJhOmNPTVWU0/200w.webp?cid=ecf05e47l5iizhuu84dub57ttm724ry1xroz3f3o6ovuafm3&rid=200w.webp&ct=g");
+}
+
+#middleSection{
+    background: linear-gradient(to bottom, transparent, 70%, white), url("https://media0.giphy.com/media/xT8qBfjJhOmNPTVWU0/200w.webp?cid=ecf05e47l5iizhuu84dub57ttm724ry1xroz3f3o6ovuafm3&rid=200w.webp&ct=g");
+    height: calc(100vh - 60vh);
+}
+
+#footerSection{
+    background-image: url(https://img1.picmix.com/output/stamp/normal/6/0/1/6/1556106_f227e.gif);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    color: black;
+    font-size: 12px;
+    padding-top: 150px;
+}
+
+/* Image Section */
+
+.Gif{
+    position: relative;
+    user-select: none;
+    top: 4px;
+    right: 5px; 
+    width: 20px;
+}
+
+.profileImg{
+    border: 2px solid white;
+    position: absolute;
+    user-select: none;
+    border-radius: 30%;
+    top: 20px;
+    right: 20px;
+    width: 50px;
+}
+
+.profileImg:hover{
+    box-shadow: 0 0 1px 1px white;
+}
+
+.pianoImg{
+    position: absolute;
+    user-select: none;
+    width: 25em;
+    bottom: 0;
+    left: 0;
+}
+
+/* Button Section */
+
+button{
+    display: inline-block;
+    font-weight: bolder;
+    border-radius: 5px;
+    position: relative;
+    height: 155px;
+    width: 55px;
+}
+
+.song{
+    all: unset;
+    position: absolute;
+    top: 90px;
+    right: 22px;
+    color: whitesmoke;
+}
+
+.song:hover{
+    opacity: 0.8;
+}
+
+.keyBoard{
+    user-select: none;
+    background-color: white;
+    border: solid black;
+    border-width: 15px 10px;
+    border-radius: 50px;
+    margin: 0 15%;
+    position: relative;  
+    bottom: -40px;
+    padding: 8px 10px;  
+}
+
+.mid-btn button{
+    background-color: white;
+    bottom: 20px;
+}
+
+.top-btn button{
+    background-color: black;
+    color: white;
+    top: 20px;
+    z-index: 1;
+
+}
+
+.key-q{
+    right: 90px;
+}
+
+.key-p{
+    left: 90px;
+}
+
+.key-we{
+    right: 45px;
+    margin: 0 7px;
+}
+
+.key-io{
+    left: 45px;
+    margin: 0 7px;
+}
+
+.key-rt{
+    right: 15px;
+    margin: 0 7px;
+}
+
+.key-yu{
+    left: 15px;
+    margin: 0 7px;
+}
+
+.greyShadow{
+    box-shadow: 0 3px 2px 1px grey;
+}
