@@ -2,9 +2,9 @@
 var isPlaying = false;
 var myAudio = new Audio("music/YOASOBI-Racing-Into-The-night.mp3");
 
-var profileMusic = document.querySelector(".song").addEventListener("click", function (){
-    togglePlay();
-});
+// var profileMusic = document.querySelector(".song").addEventListener("click", function (){
+//     togglePlay();
+// });
 
 function togglePlay() {
     console.log("working");
